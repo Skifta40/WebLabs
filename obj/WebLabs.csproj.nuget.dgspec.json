@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skift_gmpk8lz\\source\\repos\\WebLabs\\WebLabs\\WebLabs.csproj": {}
+    "C:\\Users\\skift_gmpk8lz\\Documents\\GitHub\\WebLabs\\WebLabs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skift_gmpk8lz\\source\\repos\\WebLabs\\WebLabs\\WebLabs.csproj": {
+    "C:\\Users\\skift_gmpk8lz\\Documents\\GitHub\\WebLabs\\WebLabs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skift_gmpk8lz\\source\\repos\\WebLabs\\WebLabs\\WebLabs.csproj",
+        "projectUniqueName": "C:\\Users\\skift_gmpk8lz\\Documents\\GitHub\\WebLabs\\WebLabs.csproj",
         "projectName": "WebLabs",
-        "projectPath": "C:\\Users\\skift_gmpk8lz\\source\\repos\\WebLabs\\WebLabs\\WebLabs.csproj",
+        "projectPath": "C:\\Users\\skift_gmpk8lz\\Documents\\GitHub\\WebLabs\\WebLabs.csproj",
         "packagesPath": "C:\\Users\\skift_gmpk8lz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skift_gmpk8lz\\source\\repos\\WebLabs\\WebLabs\\obj\\",
+        "outputPath": "C:\\Users\\skift_gmpk8lz\\Documents\\GitHub\\WebLabs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,12 +26,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -50,30 +48,7 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
-          "dependencies": {
-            "Docker.DotNet": {
-              "target": "Package",
-              "version": "[3.125.15, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.5, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[10.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -93,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

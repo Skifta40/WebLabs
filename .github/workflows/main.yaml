@@ -1,0 +1,29 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 8.0.x
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build App
+      run: dotnet build --no-restore
+
+    # This ensures your student-image is actually buildable
+    - name: Build Student Docker Image
+      run: docker build -t student-image .
+
+    # If using Render, it usually deploys automatically on GitHub Push
